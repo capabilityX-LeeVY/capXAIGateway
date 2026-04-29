@@ -1,0 +1,14 @@
+openai
+Pillow
+mss
+ultralytics
+opencv-python
+jira
+pymysql
+pandas
+djangorestframework
+django-cors-headers
+celery
+django-sslserver
+py7zr
+schedule

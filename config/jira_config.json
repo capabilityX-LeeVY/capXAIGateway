@@ -1,0 +1,11 @@
+{
+    "jira": {
+        "server": "https://jira-eng-gpk2.capx.com/jira",
+        "token": "NDcwMjEwNDU0NjU0Olkunv7VJrh+a0YGT9kq8f4tQI5G",
+        "default_project": "SPARK",
+        "default_epic": "SPARK-559755",
+        "default_team": "Polaris",
+        "default_assignee": "binbiwan",
+        "enabled": true
+    }
+}

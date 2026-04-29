@@ -1,0 +1,50 @@
+{
+    "mcp_clients": [
+        {
+            "id": "mcp-1",
+            "host": "10.224.77.43",
+            "port": 9000,
+            "description": "Primary MCP Client - Win",
+            "platform": "Windows",
+            "enabled": true,
+            "priority": 1,
+            "max_concurrent_tasks": 1
+        },
+        {
+            "id": "mcp-2",
+            "host": "10.224.77.99",
+            "port": 9000,
+            "description": "Secondary MCP Client - Win",
+            "platform": "Windows",
+            "enabled": true,
+            "priority": 2,
+            "max_concurrent_tasks": 1
+        },
+        {
+            "id": "mcp-3",
+            "host": "10.140.217.31",
+            "port": 9000,
+            "description": "three MCP Client - Win",
+            "platform": "Windows",
+            "enabled": true,
+            "priority": 3,
+            "max_concurrent_tasks": 1
+
+        },
+        {
+            "id": "mcp-mac-1",
+            "host": "10.79.110.36",
+            "port": 9000,
+            "description": "Mac MCP Client",
+            "platform": "Mac",
+            "enabled": true,
+            "priority": 4,
+            "max_concurrent_tasks": 1
+        }
+    ],
+    "scheduling": {
+        "strategy": "round_robin",
+        "max_queue_size": 50,
+        "task_timeout_seconds": 600
+    }
+}

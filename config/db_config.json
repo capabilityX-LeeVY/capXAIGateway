@@ -1,0 +1,13 @@
+{
+    "dbConfig": {
+      "capx_ai_gateway_db": {
+        "host": "capx-dev.capx.com",
+        "port": 3306,
+        "user": "test",
+        "password": "pass",
+        "database": "capx_ai_gateway_db",
+        "charset": "utf8mb4"
+    }
+    }
+  }
+  
